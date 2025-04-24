@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <>
-            <section className='bg-white maxW '>
+            <section id='contact' className='bg-white maxW '>
                 <div className='py-20 px-12'>
                     <h1 className='text-4xl text-center uppercase text-GreenP'>Entre em contato</h1>
                     <p className='text-center mt-2 text-black'>Preencha o formulário e nossa equipe entrará em contato para oferecer uma consulta personalizada.</p>

@@ -5,7 +5,7 @@ import { SiVerizon } from 'react-icons/si';
 export default function History() {
     return (
         <>
-            <section id='about' className='bg-white maxW pt-20 px-6'>
+            <section id='historia' className='bg-white maxW pt-20 px-6'>
                 <div className='px-6 flex flex-col gap-8 lg:flex-row'>
                     
                     <article className='lg:w-1/2'>

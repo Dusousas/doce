@@ -23,10 +23,10 @@ export default function NavBar() {
       {/* Menu Desktop */}
       <nav className="hidden lg:flex gap-6 text-white uppercase tracking-wider text-md">
         <ul className="flex gap-6">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#historia">Nossa História</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
 
@@ -45,10 +45,10 @@ export default function NavBar() {
         } lg:hidden z-40`}
       >
         <ul className="flex flex-col items-center gap-6 text-lg uppercase tracking-wider">
-          <li><a href="#" onClick={() => setMenuOpen(false)}>Início</a></li>
-          <li><a href="#" onClick={() => setMenuOpen(false)}>Sobre nós</a></li>
-          <li><a href="#" onClick={() => setMenuOpen(false)}>Menu</a></li>
-          <li><a href="#" onClick={() => setMenuOpen(false)}>Contato</a></li>
+          <li><a href="#home" onClick={() => setMenuOpen(false)}>Início</a></li>
+          <li><a href="#about" onClick={() => setMenuOpen(false)}>Sobre nós</a></li>
+          <li><a href="#historia" onClick={() => setMenuOpen(false)}>Menu</a></li>
+          <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a></li>
         </ul>
       </nav>
     </>

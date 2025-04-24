@@ -46,7 +46,7 @@ const featuresRight = [
 
 export default function About() {
     return (
-        <section className='bg-white maxW pt-20'>
+        <section id='about' className='bg-white maxW pt-20'>
             <div className='flex flex-col items-center justify-center gap-6 lg:flex-row'>
 
                 {/* Texto esquerda */}
@@ -62,7 +62,7 @@ export default function About() {
                     ))}
                 </article>
 
-                <img className='w-[40%] lg:w-[30%]' src="about1.png" alt="Sobre nós" />
+                <img className='w-[80%] lg:w-[30%]' src="about1.png" alt="Sobre nós" />
 
                 {/* Texto direita */}
                 <article className='flex flex-col gap-12'>
