@@ -13,7 +13,7 @@ export default function Whatsapp() {
         <>
             <button 
                 onClick={handleWhatsAppClick}
-                className="fixed bottom-10 right-10 cursor-pointer bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50 flex items-center justify-center"
+                className="fixed bottom-10 right-2 lg:right-10 cursor-pointer bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50 flex items-center justify-center"
                 aria-label="Contact on WhatsApp"
             >
                 <FaWhatsapp className="text-2xl" />
