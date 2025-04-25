@@ -1,12 +1,10 @@
 @import "tailwindcss";
 
-
 @theme inline {
   --color-BegeP: #D8CC9A;
   --color-GreenP: #124831;
   --font-Oswald:"Oswald", "serif";
   --font-Merriweather:"Merriweather", "serif";
-
 }
 
 body {
@@ -14,6 +12,11 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
 
 .maxW {
